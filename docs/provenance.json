@@ -1,0 +1,71 @@
+{
+  "source": "IOI-forge/Blox",
+  "sourceTree": "cb480da43da0eb4f66f7f5f4bd16a1fb9a832870",
+  "files": [
+    {
+      "path": "src/shared/annotations.ts",
+      "blob": "9ef45873e5ba23b8443ca70fb4f09fb9ab88d6b4"
+    },
+    {
+      "path": "src/shared/art.ts",
+      "blob": "47f5b5ddf8111c1fee3ba19bb818e50cb427bb4d"
+    },
+    {
+      "path": "src/shared/art2.ts",
+      "blob": "f617fffc0cfecfaaecb1f160a6bf0799a693963f"
+    },
+    {
+      "path": "src/shared/digest.ts",
+      "blob": "1207f5ee847070fae144565f0aa8e9d8bb3a4ced"
+    },
+    {
+      "path": "src/shared/event-layout.ts",
+      "blob": "9117f36d9b0fe9b493a9c12982d1361d1aedd03a"
+    },
+    {
+      "path": "src/shared/format.ts",
+      "blob": "5e8108c4ee4377e841c4fefa01933a17f884578a"
+    },
+    {
+      "path": "src/shared/geometry.ts",
+      "blob": "39521ed2eaf6d64ec873d08fd1919f34868b7471"
+    },
+    {
+      "path": "src/shared/palettes.ts",
+      "blob": "51e4466052b4cde9e16aadfcae1d29b1cd777f4d"
+    },
+    {
+      "path": "src/shared/render.ts",
+      "blob": "a17aa27f6ccc7ff9cf68ce30eb1f4536121ce6a4"
+    },
+    {
+      "path": "src/shared/studio-defaults.ts",
+      "blob": "16c089a6791f327d963b9bef4776da6cac43d0e2"
+    },
+    {
+      "path": "tests/annotations.test.ts",
+      "blob": "29ff351d4b937a32d6f28d8ded4613b906f8c727"
+    },
+    {
+      "path": "tests/art.test.ts",
+      "blob": "e13e37cf8b588336a45b4d3deee81663c997d9af"
+    },
+    {
+      "path": "tests/art2.test.ts",
+      "blob": "0462597054c474d16eed7eaec53f5c80a30da1f8"
+    },
+    {
+      "path": "tests/event-layout.test.ts",
+      "blob": "24a527618d24ba1b4f31d465858a6068f77cfa58"
+    },
+    {
+      "path": "tests/format.test.ts",
+      "blob": "50cbc1ea2ff67d7abce60e757cd5841d18abbc33"
+    },
+    {
+      "path": "tests/geometry.test.ts",
+      "blob": "48180e39235be82367e2fcdb66381e64e4d92d0d"
+    }
+  ],
+  "notes": "Renderer source retained. Upstream art3/art4 suites depend on private-app chain classification and raw fixtures and are excluded; standalone version tests cover supplied synthetic digests instead."
+}
