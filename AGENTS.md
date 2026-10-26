@@ -1,6 +1,10 @@
 # Agent guide
 
-Read `README.md`, `docs/getting-started.md`, `docs/art-engine.md` and this file before changing code. This is a standalone, offline generative SVG engine extracted from Blox / BlockHeight. The goal is to make the artwork understandable, reusable and easy to extend.
+Read `README.md`, `docs/getting-started.md`, `docs/art-engine.md` and this file before changing code. This is a standalone, offline generative SVG engine extracted from BlockHeight. The goal is to make the artwork understandable, reusable and easy to extend.
+
+## Project naming
+
+Use **BlockHeight** consistently as the project name in documentation, examples and user-facing text. Preserve source provenance through stable repository IDs and recorded Git hashes.
 
 ## Scope and architecture
 
@@ -41,4 +45,4 @@ For a new option, review schema/defaults, validation, versioned behavior, docume
 
 The copied tests cover versions 1 and 2, annotations, geometry, event layout and formatting. `tests/versions.test.ts` adds the upstream version-4 plain golden hash and synthetic digest tests for versions 3 and 4. The original comprehensive art3/art4 suites depended on upstream chain classification and raw block fixtures and were not extracted. Do not claim equivalent coverage or full upstream verification.
 
-The old browser prototype, branding/reference images and all private application history were excluded. Consult `docs/extraction-plan.md` for extraction scope. `private: true` in package.json prevents accidental npm publication; it does not prevent a public GitHub repository. MIT applies to this repository's code, docs and example outputs, not automatically to other Blox assets or trademarks.
+The old browser prototype, branding/reference images and all private application history were excluded. Consult `docs/extraction-plan.md` for extraction scope. `private: true` in package.json prevents accidental npm publication; it does not prevent a public GitHub repository. MIT applies to this repository's code, docs and example outputs, not automatically to other BlockHeight assets or trademarks.

@@ -1,10 +1,10 @@
 # BlockHeight Art
 
-BlockHeight Artwork is a small, dependency-free TypeScript engine for deterministic generative architectural SVGs. It is the artwork engine of the BlockHeight project (part of Blox), published on its own so that others can render, remix and build on it instead of starting from zero.
+BlockHeight Artwork is a small, dependency-free TypeScript engine for deterministic generative architectural SVGs. It is the artwork engine of the BlockHeight project, published on its own so that others can render, remix and build on it instead of starting from zero.
 
-**Create the art here. Bring it on chain with [MintGarden Dynamic Minting](https://mintgarden.io/minting-api).** In Blox / BlockHeight, this engine supplies the artwork for a custom NFT minting experience: the application prepares the artwork and metadata, MintGarden creates a Chia offer, and the collector takes that offer in their own wallet. It is a practical way to combine your own generative art studio with MintGarden's minting infrastructure.
+**Create the art here. Bring it on chain with [MintGarden Dynamic Minting](https://mintgarden.io/minting-api).** In BlockHeight, this engine supplies the artwork for a custom NFT minting experience: the application prepares the artwork and metadata, MintGarden creates a Chia offer, and the collector takes that offer in their own wallet. It is a practical way to combine your own generative art studio with MintGarden's minting infrastructure.
 
-Start with our **[MintGarden Dynamic Minting guide](docs/mintgarden-dynamic-minting.md)** for the flow used in Blox, API fields, Mint Credits, offer expiry, royalties and payment verification. The Blox integration has minted on Testnet11; this standalone repository contains the artwork engine and integration documentation, not the live minting backend.
+Start with our **[MintGarden Dynamic Minting guide](docs/mintgarden-dynamic-minting.md)** for the flow used in BlockHeight, API fields, Mint Credits, offer expiry, royalties and payment verification. The BlockHeight integration has minted on Testnet11; this standalone repository contains the artwork engine and integration documentation, not the live minting backend.
 
 The engine is a pure function: a JSON recipe goes in, SVG text comes out. It does not connect to Chia or any other chain, and it does not mint, sell or store NFTs.
 
@@ -34,7 +34,7 @@ This writes `out/my-artwork.svg` and the recipe used next to it (`out/my-artwork
 
 ## What you can build
 
-- **A custom NFT minting experience with MintGarden**: render an artwork here, publish its immutable files and metadata, then use Dynamic Minting to create a wallet-ready offer. See the [Blox integration pattern](docs/mintgarden-dynamic-minting.md).
+- **A custom NFT minting experience with MintGarden**: render an artwork here, publish its immutable files and metadata, then use Dynamic Minting to create a wallet-ready offer. See the [BlockHeight integration pattern](docs/mintgarden-dynamic-minting.md).
 - **Your own generator or gallery**: call the engine with your own seeds and option sets, e.g. one image per day, per user or per block.
 - **A web studio**: bundle `src/shared/` with your build tool and render in the browser; the modules use no Node or browser APIs.
 - **Block-driven art**: read block data with your own chain client, condense it into a [digest](#render-with-block-data) and let the engine draw its events.
@@ -175,4 +175,4 @@ Want a new palette, option or shape? Because existing versions must never change
 
 ## License
 
-Code, documentation and the example outputs are available under the [MIT License](LICENSE). You may use, modify and distribute them, including commercially, as long as the license notice is kept. The license does not grant rights to the Blox or BlockHeight names, logos or other brand assets.
+Code, documentation and the example outputs are available under the [MIT License](LICENSE). You may use, modify and distribute them, including commercially, as long as the license notice is kept. The license does not grant rights to the BlockHeight names, logos or other brand assets.

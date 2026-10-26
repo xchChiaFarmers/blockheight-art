@@ -1,6 +1,6 @@
 # Extraction notes
 
-This package extracts the deterministic artwork engine from the private `IOI-forge/Blox` project into a standalone community repository. The intent is to publish only the reusable renderer, its support modules, focused tests, documentation, and a reproducible SVG example.
+This package extracts the deterministic artwork engine from the private BlockHeight project into a standalone community repository. The intent is to publish only the reusable renderer, its support modules, focused tests, documentation, and a reproducible SVG example.
 
 ## Scope
 
@@ -30,4 +30,4 @@ Excluded scope:
 
 ## Publication scope
 
-The initial import contains the standalone package and documentation only. Private application history is not imported. The upstream Blox repository remains unchanged. See [validation](validation.md) for the checks and their limits; CI results are in the repository's Actions tab.
+The initial import contains the standalone package and documentation only. Private application history is not imported. The upstream BlockHeight repository remains unchanged. See [validation](validation.md) for the checks and their limits; CI results are in the repository's Actions tab.
